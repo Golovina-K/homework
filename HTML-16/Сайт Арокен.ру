@@ -1,0 +1,79 @@
+[index.html](https://github.com/user-attachments/files/21922283/index.html)
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="lesson 16" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание по глобальной струтуре</title>
+</head>
+
+<body>
+    <!-- Первый сайт aroken.ru -->
+    <aside>временная акция до 1 сент</aside>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <section class="block-1">
+            <aside></aside>
+        </section>
+        <section class="block-2">
+            <div class="interview">
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+            <div class="feedback">
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+            <div class="projects">
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </section>
+    </main>
+    <main class="course_programs">
+        <aside></aside>
+        <section>
+            <div>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </section>
+        <section class="tariffs">
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+    </main>
+    <article class="part_pay"></article>
+    <article class="leave_contact"></article>
+    <article class="FAQ"></article>
+    <footer></footer>
+    <!-- aroken.ru -->
+</body>
+
+</html>
