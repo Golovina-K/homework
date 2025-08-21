@@ -1,0 +1,43 @@
+[index.html](https://github.com/user-attachments/files/21922253/index.html)
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="lesson 16" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание по глобальной структуре</title>
+</head>
+
+<body>
+    <!-- Второй сайт - игровой -->
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <nav></nav>
+        <aside></aside>
+        <section class="block-1">
+            <div>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </section>
+        <section class="block-2">
+            <div>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <!-- Игровой сайт -->
+</body>
+
+</html>
