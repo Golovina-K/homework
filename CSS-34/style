@@ -8,14 +8,14 @@
 }
 
 .block2 {
-    font-family: "Prata", serif;
+    font-family: "Prata", serif, "Arial";
     font-weight: 500;
     font-style: normal;
     text-decoration: line-through;
 }
 
 .block3 {
-    font-family: "Prata", serif;
+    font-family: "Prata", serif, "Arial";
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -23,7 +23,7 @@
 }
 
 .block4 {
-    font-family: "Prata", serif;
+    font-family: "Prata", serif, "Arial";
     font-weight: 500;
     font-style: normal;
     word-spacing: 5px;
@@ -34,7 +34,7 @@
 }
 
 .block5 {
-    font-family: "Prata", serif;
+    font-family: "Prata", serif, "Arial";
     font-weight: 500;
     font-style: normal;
     letter-spacing: 5px;
