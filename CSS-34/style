@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 34 CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="block1">
+        <p>Семейство шрифта - "Open Sans", жирность 300, размер шрифта 20px, высота строки 30px. Курсив</p>
+    </div>
+    <hr>
+
+    <div class="block2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, omnis repellendus accusantium vero ex similique recusandae officiis! Enim consectetur dicta, corrupti a alias, doloremque culpa voluptatibus incidunt cum iste commodi!</p>
+    </div>
+    <hr>
+
+    <div class="block3">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam distinctio incidunt perferendis enim qui consequuntur fuga illo ipsum beatae facilis illum, alias expedita animi. Culpa eius eveniet soluta perferendis iure!</p>
+    </div>
+    <hr>
+
+    <div class="block4">
+        <p>Расстояние между словами 30px</p>
+    </div>
+    <hr>
+
+    <div class="block5">
+        <p>Расстояние между буквами 5px</p>
+    </div>
+    <hr>
+
+</body>
+
+</html>
