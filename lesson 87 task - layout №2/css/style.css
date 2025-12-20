@@ -202,12 +202,12 @@ body {
     grid-column: 1/3;
     grid-row: span 2;
 }
-.gallery__img--large-rigth {
+.gallery__img--large-right {
     grid-column: -1/-3;
     grid-row: span 2;
 }
 
-.gallerry__hint {
+.gallery__hint {
     position: absolute;
     left: 0;
     right: 0;
@@ -222,13 +222,15 @@ body {
     opacity: 0;
     transition: all .5s;
 }
-.gallerry__img:hover .gallerry__hint {
+.gallery__img:hover .gallery__hint {
     transform: translateY(0%);
     opacity: 1;
 }
 
-.gallery__img--large-left .gallerry_hint,
-.gallery__img--large-rigth .gallerry_hint {
+.gallery__img--large-left .gallery_hint,
+.gallery__img--large-right .gallery_hint,
+.gallery__hint--large-left,
+.gallery__hint--large-right {
     height: 103px;
     font-size: 24px;
     line-height: 29px;
