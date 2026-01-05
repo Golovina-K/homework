@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Письмо Дедушке Морозу</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background-color: #BFE4FE;
+            min-height: 100vh;
+            position: relative;
+            height: 1150px;
+        }
+
+        table {
+            table-layout: fixed;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(32, 73, 85, 0.9);
+            position: relative;
+            margin-top: 70px;
+            font-style: italic;
+            background-color: #91E0FF;
+
+            animation: appearance .5s;
+        }
+
+        @keyframes appearance {
+            from {
+                opacity: 0;
+                transform: scale(0);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        img {
+            width: 600px;
+        }
+
+        .container__img1 {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            z-index: 1;
+        }
+
+        .container__img2 {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            z-index: 1;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #D9D9D9, #0096B7, #D9D9D9);
+            padding: 40px 30px;
+            text-align: center;
+            color: white;
+            width: 1200px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            letter-spacing: 1px;
+        }
+
+        .content {
+            padding: 40px 50px;
+            color: #333;
+        }
+
+        .content__img {
+            max-width: 600px;
+        }
+
+        .main-text {
+            font-size: 1.4em;
+            line-height: 1.7;
+            padding-bottom: 10px;
+        }
+
+        .wishes-title {
+            font-size: 1.8em;
+            color: #189f86;
+            margin: 10px 0 20px;
+            text-align: left;
+            padding-left: 40px;
+            position: relative;
+        }
+
+        .wishes-title::before,
+        .wishes-title::after {
+            content: "💫";
+            font-size: 1.2em;
+            margin: 0 10px 0 10px;
+        }
+
+        .signature {
+            text-align: right;
+            padding-right: 60px;
+            padding-bottom: 30px;
+            font-style: italic;
+            color: #555;
+            font-family: 'Dancing Script', cursive;
+            font-size: clamp(26px, 7.5vw, 34px);
+            color: #21b69b;
+        }
+
+        .snowflake {
+            position: fixed;
+            top: -20px;
+            color: #fff;
+            font-size: 1.3em;
+            pointer-events: none;
+            animation: fall linear infinite;
+            opacity: 0.8;
+            z-index: 1;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+
+        .inner-snow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .inner-snowflake {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 10px rgba(173, 216, 230, 0.6);
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Письмо -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center">
+                <table class="container" cellpadding="0" cellspacing="0" border="0">
+
+                    <div class="container__img1">
+                        <img src="img/Christmas tree.png" alt="">
+                    </div>
+                    <div class="container__img2">
+                        <img src="img/House.png" alt="">
+                    </div>
+
+                    <tr>
+                        <td class="header" colspan="2">
+                            <h1>Письмо Дедушке Морозу</h1>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="100%" class="content">
+                            <div class="main-text">
+                                Здравствуй, Дедушка Мороз. Спасибо, что находишь время прочитать моё письмо.<br><br>
+                                Прошедший год был непростым, в нем было немало вызовов. Надеюсь следующий год принесёт
+                                больше спокойствия и радостных моментов.
+                                И очень хочется добавить, что самое главное и ценное в любой год и время — это любовь и
+                                семья!❤️<br>
+                            </div>
+
+                            <div class="wishes-title">Пожелания</div>
+
+                            <div class="main-text ">
+                                Побольше тёплых моментов и поездок на природу, Успешно пройти обучение, Переезд в другой
+                                город
+                            </div>
+                        </td>
+                        <td>
+                            <img class="content__img" src="img/Snowglobe.png" alt="">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="100%" colspan="2">
+                            <div class="signature">
+                                🎄 С верой в любовь и волшебство, и пожеланиями новогоднего настроения,<br>
+                                Екатерина!
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <!-- Снежинки -->
+    <script>
+        function createSnow(container, count, className) {
+            for (let i = 0; i < count; i++) {
+                const snow = document.createElement('div');
+                snow.className = className;
+                snow.textContent = ['❄', '❅', '❆'][Math.floor(Math.random() * 3)];
+                snow.style.left = Math.random() * 100 + '%';
+                snow.style.animationDuration = (Math.random() * 8 + 7) + 's';
+                snow.style.animationDelay = Math.random() * 5 + 's';
+                snow.style.fontSize = (Math.random() * 0.8 + 0.8) + 'em';
+                snow.style.opacity = Math.random() * 0.4 + 0.5;
+                container.appendChild(snow);
+            }
+        }
+
+        createSnow(document.body, 100, 'snowflake');
+
+        function createSnowInside() {
+            const container = document.getElementById('innerSnow');
+            const total = 45;
+
+            for (let i = 0; i < total; i++) {
+                const snow = document.createElement('div');
+                snow.className = 'inner-snowflake';
+                snow.textContent = ['❄', '❅', '❆'][Math.floor(Math.random() * 3)];
+
+                const size = Math.random() * 30 + 25;
+                snow.style.fontSize = size + 'px';
+
+                let topPos;
+                if (i < 15) {
+                    topPos = Math.random() * 30 + '%';
+                } else {
+                    topPos = Math.random() * 170 + 30 + '%';
+                }
+                snow.style.top = topPos;
+
+                snow.style.left = Math.random() * 90 + 5 + '%';
+
+                snow.style.transform = 'rotate(' + Math.random() * 360 + 'deg)';
+
+                container.appendChild(snow);
+            }
+        }
+
+        createSnowInside();
+
+        const letterWrapper = document.getElementById('letterWrapper');
+        const sendBtn = document.getElementById('sendBtn');
+        const success = document.getElementById('success');
+
+        sendBtn.addEventListener('click', function () {
+            sendBtn.disabled = true;
+            sendBtn.textContent = 'Летит к Северному полюсу...';
+
+            letterWrapper.classList.add('flying');
+
+            setTimeout(() => {
+                success.classList.add('show'); sendBtn.classList.add('hidden');
+
+                setTimeout(() => {
+                    success.classList.remove('show');
+                    success.classList.add('hide');
+
+                    setTimeout(() => {
+                        letterWrapper.classList.add('hidden');
+                        sendBtn.classList.add('hidden');
+                    }, 800);
+
+                }, 2500);
+
+            }, 3800);
+        });
+    </script>
+</body>
+
+</html>
