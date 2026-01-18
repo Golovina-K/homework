@@ -26,7 +26,7 @@ table {
 
 .table__header {
     text-align: right;
-    padding-top: 20px;
+    padding: 30px 0;
     border-bottom: 2px solid #80808067;
 }
 
@@ -143,3 +143,4 @@ a {
     padding-bottom: 20px;
 
 }
+
