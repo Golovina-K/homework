@@ -27,6 +27,7 @@ table {
 .table__header {
     text-align: right;
     padding-top: 20px;
+    border-bottom: 2px solid #80808067;
 }
 
 .contact {
@@ -140,4 +141,5 @@ a {
 .nav__item {
     list-style-type: none;
     padding-bottom: 20px;
+
 }
