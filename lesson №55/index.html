@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson №55</title>
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1320px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+
+        .header__container {
+            display: flex;
+            padding: 30px 20px;
+            border-bottom: 1.5px solid #80808067;
+            justify-content: space-between;
+        }
+
+        ul {
+            display: flex;
+            gap: 10px 30px;
+            flex-wrap: wrap;
+            padding-top: 15px;
+            margin: 0;
+            list-style: none;
+            height: 16px;
+            font-weight: 500;
+            text-decoration: 1.5px underline;
+        }
+
+        .contact {
+            padding-top: 15px;
+            height: 16px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#">
+                <img src="./img/logo.jpg" alt="Логотип">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Главная</a>
+                </li>
+                <li>
+                    <a href="#">О компании</a>
+                </li>
+                <li>
+                    <a href="#">Цены</a>
+                </li>
+            </ul>
+            <div class="contact">
+                <a href="#">+7 999 999 99 99</a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
