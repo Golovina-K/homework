@@ -27,13 +27,13 @@
             padding: 30px 20px;
             border-bottom: 1.5px solid #80808067;
             justify-content: space-between;
+            align-items: center;
         }
 
         ul {
             display: flex;
             gap: 10px 30px;
             flex-wrap: wrap;
-            padding-top: 15px;
             margin: 0;
             list-style: none;
             height: 16px;
@@ -41,10 +41,6 @@
             text-decoration: 1.5px underline;
         }
 
-        .contact {
-            padding-top: 15px;
-            height: 16px;
-        }
     </style>
 </head>
 
@@ -55,7 +51,7 @@
             <a href="#">
                 <img src="./img/logo.jpg" alt="Логотип">
             </a>
-            <ul>
+            <ul class="nav">
                 <li>
                     <a href="#">Главная</a>
                 </li>
@@ -66,9 +62,7 @@
                     <a href="#">Цены</a>
                 </li>
             </ul>
-            <div class="contact">
                 <a href="#">+7 999 999 99 99</a>
-            </div>
         </div>
     </header>
 </body>
