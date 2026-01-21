@@ -24,6 +24,8 @@
 
         .header__container {
             display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
             padding: 30px 20px;
             border-bottom: 1.5px solid #80808067;
             justify-content: space-between;
@@ -36,11 +38,9 @@
             flex-wrap: wrap;
             margin: 0;
             list-style: none;
-            height: 16px;
             font-weight: 500;
             text-decoration: 1.5px underline;
         }
-
     </style>
 </head>
 
@@ -48,21 +48,23 @@
 <body>
     <header class="header">
         <div class="container header__container">
-            <a href="#">
+            <a class="logo" href="#">
                 <img src="./img/logo.jpg" alt="Логотип">
             </a>
-            <ul class="nav">
-                <li>
-                    <a href="#">Главная</a>
-                </li>
-                <li>
-                    <a href="#">О компании</a>
-                </li>
-                <li>
-                    <a href="#">Цены</a>
-                </li>
-            </ul>
-                <a href="#">+7 999 999 99 99</a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">О компании</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#">Цены</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="phone" href="#">+7 999 999 99 99</a>
         </div>
     </header>
 </body>
