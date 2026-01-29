@@ -140,9 +140,9 @@ table {
     cursor: pointer;
 }
 
-.article__play__button:active {
+/* .article__play__button:active {
     display: none;
-}
+} */
 
 
 li {
@@ -191,3 +191,4 @@ a {
     list-style-type: none;
     padding-bottom: 20px;
 }
+
